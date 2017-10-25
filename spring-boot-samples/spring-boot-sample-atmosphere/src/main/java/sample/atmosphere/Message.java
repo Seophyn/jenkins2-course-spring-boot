@@ -20,6 +20,8 @@ import java.util.Date;
 
 public class Message {
 
+	private String ownMessage;
+
 	private String message;
 
 	private String author;
@@ -50,4 +52,11 @@ public class Message {
 		this.time = time;
 	}
 
+	public String getOwnMessage() {
+		return ownMessage;
+	}
+
+	public void setOwnMessage(String ownMessage) {
+		this.ownMessage = ownMessage;
+	}
 }
